@@ -1,0 +1,14 @@
+command_id: DACB.2227C6
+test_cases:
+- expected_values:
+    CADILLAC_SOC_HD: 51.4519
+  response: 18DAF1CB056227C683B7
+- expected_values:
+    CADILLAC_SOC_HD: 60.96132
+  response: 18DAF1CB056227C69C0F
+- expected_values:
+    CADILLAC_SOC_HD: 73.02358
+  response: 18DAF1CB056227C6BAF0
+- expected_values:
+    CADILLAC_SOC_HD: 78.4741
+  response: 18DAF1CB056227C6C8E4

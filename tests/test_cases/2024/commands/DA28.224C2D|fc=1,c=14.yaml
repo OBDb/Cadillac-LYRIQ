@@ -1,0 +1,14 @@
+command_id: DA28.224C2D|fc=1,c=14
+test_cases:
+- expected_values:
+    CADILLAC_STEER_ANGLE: 1.738
+  response: 142AF12805624C2D004F
+- expected_values:
+    CADILLAC_STEER_ANGLE: 107.25
+  response: 142AF12805624C2D130B
+- expected_values:
+    CADILLAC_STEER_ANGLE: -17.49
+  response: 142AF12805624C2DFCE5
+- expected_values:
+    CADILLAC_STEER_ANGLE: -5.17
+  response: 142AF12805624C2DFF15
