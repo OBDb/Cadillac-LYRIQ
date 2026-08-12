@@ -1,0 +1,29 @@
+command_id: DA28.224A7C|fc=1,c=14
+test_cases:
+- expected_values:
+    CADILLAC_BP: 0
+  response: 142AF12804624A7C0A
+- expected_values:
+    CADILLAC_BP: 400
+  response: 142AF12804624A7C0E
+- expected_values:
+    CADILLAC_BP: 500
+  response: 142AF12804624A7C0F
+- expected_values:
+    CADILLAC_BP: 600
+  response: 142AF12804624A7C10
+- expected_values:
+    CADILLAC_BP: 800
+  response: 142AF12804624A7C12
+- expected_values:
+    CADILLAC_BP: 1000
+  response: 142AF12804624A7C14
+- expected_values:
+    CADILLAC_BP: 1300
+  response: 142AF12804624A7C17
+- expected_values:
+    CADILLAC_BP: 2500
+  response: 142AF12804624A7C23
+- expected_values:
+    CADILLAC_BP: 2900
+  response: 142AF12804624A7C27
