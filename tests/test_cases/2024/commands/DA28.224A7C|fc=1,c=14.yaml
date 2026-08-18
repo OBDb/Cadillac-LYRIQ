@@ -25,5 +25,8 @@ test_cases:
     CADILLAC_BP: 2500
   response: 142AF12804624A7C23
 - expected_values:
+    CADILLAC_BP: 2600
+  response: 142AF12804624A7C24
+- expected_values:
     CADILLAC_BP: 2900
   response: 142AF12804624A7C27
