@@ -1,0 +1,5 @@
+command_id: DA40.40.224124
+test_cases:
+- expected_values:
+    LYRIQ_HVBAT_T_B: 27.34375
+  response: 18DAF14005624124036B

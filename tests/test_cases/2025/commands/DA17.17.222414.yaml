@@ -1,0 +1,17 @@
+command_id: DA17.17.222414
+test_cases:
+- expected_values:
+    LYRIQ_HVBAT_C: -21.55
+  response: 18DAF11705622414FE51
+- expected_values:
+    LYRIQ_HVBAT_C: -21.25
+  response: 18DAF11705622414FE57
+- expected_values:
+    LYRIQ_HVBAT_C: -20.95
+  response: 18DAF11705622414FE5D
+- expected_values:
+    LYRIQ_HVBAT_C: -20.65
+  response: 18DAF11705622414FE63
+- expected_values:
+    LYRIQ_HVBAT_C: -20.35
+  response: 18DAF11705622414FE69

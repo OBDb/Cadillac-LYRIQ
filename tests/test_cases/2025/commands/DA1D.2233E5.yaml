@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     LYRIQ_12V_V: 12.2
   response: 18DAF11D046233E57A
+- expected_values:
+    LYRIQ_12V_V: 13.6
+  response: 18DAF11D046233E588
