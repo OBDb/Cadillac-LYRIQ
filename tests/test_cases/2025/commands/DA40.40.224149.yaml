@@ -1,0 +1,5 @@
+command_id: DA40.40.224149
+test_cases:
+- expected_values:
+    LYRIQ_EVSE_PILOT_C: 90.8
+  response: 18DAF14005624149038C
