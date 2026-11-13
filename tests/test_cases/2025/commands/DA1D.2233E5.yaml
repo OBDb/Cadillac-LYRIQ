@@ -4,5 +4,20 @@ test_cases:
     LYRIQ_12V_V: 12.2
   response: 18DAF11D046233E57A
 - expected_values:
+    LYRIQ_12V_V: 12.8
+  response: 18DAF11D046233E580
+- expected_values:
+    LYRIQ_12V_V: 13
+  response: 18DAF11D046233E582
+- expected_values:
+    LYRIQ_12V_V: 13.2
+  response: 18DAF11D046233E584
+- expected_values:
+    LYRIQ_12V_V: 13.5
+  response: 18DAF11D046233E587
+- expected_values:
     LYRIQ_12V_V: 13.6
   response: 18DAF11D046233E588
+- expected_values:
+    LYRIQ_12V_V: 13.7
+  response: 18DAF11D046233E589
