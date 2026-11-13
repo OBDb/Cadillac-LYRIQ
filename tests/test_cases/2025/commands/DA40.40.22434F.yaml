@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     LYRIQ_HVBAT_T: 60
   response: 18DAF1400462434F64
+- expected_values:
+    LYRIQ_HVBAT_T: 30
+  response: 18DAF1400462434F46
+- expected_values:
+    LYRIQ_HVBAT_T: null
+  response: 18DAF1400462434F00
