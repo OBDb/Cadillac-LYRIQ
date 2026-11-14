@@ -1,8 +1,8 @@
 command_id: DA17.17.222414
 test_cases:
 - expected_values:
-    LYRIQ_HVBAT_C: 2.4
-  response: 18DAF117056224140030
+    LYRIQ_HVBAT_C: 0.6
+  response: 18DAF11705622414000C
 - expected_values:
     LYRIQ_HVBAT_C: -8.35
   response: 18DAF11705622414FF59

@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     LYRIQ_ODO: 20823.57812
   response: 18DAF1400762448F001455E5
+- expected_values:
+    LYRIQ_ODO: 20826.10938
+  response: 18DAF1400762448F00145687
