@@ -4,8 +4,11 @@ test_cases:
     LYRIQ_HVBAT_C: 0.6
   response: 18DAF11705622414000C
 - expected_values:
-    LYRIQ_HVBAT_C: -8.35
-  response: 18DAF11705622414FF59
+    LYRIQ_HVBAT_C: -77.05
+  response: 18DAF11705622414F9FB
 - expected_values:
-    LYRIQ_HVBAT_C: -0.55
-  response: 18DAF11705622414FFF5
+    LYRIQ_HVBAT_C: -50.95
+  response: 18DAF11705622414FC05
+- expected_values:
+    LYRIQ_HVBAT_C: -11.65
+  response: 18DAF11705622414FF17

@@ -137,6 +137,7 @@ supported_commands_by_ecu:
   - 017F:IDLE_TIME,IDLE_TIME_SUP,PTO_TIME,PTO_TIME_SUP,RUN_TIME,RUN_TIME_SUP
   - 01A6:ODO
   - DB33.010C:RPM
+  - DB33.010D:VSS
   - DB33.0131:CLR_DIST
   - DB33.01A6:ODO
 unsupported_commands_by_ecu:
@@ -686,7 +687,6 @@ unsupported_commands_by_ecu:
   - DB33.0105:ECT
   - DB33.0106:SHRTFT1
   - DB33.0108:SHRTFT2,SHRTFT4
-  - DB33.010D:VSS
   - DB33.0110:MAF
   - DB33.012F:FLI
   - DB33.0143:LOAD_ABS
