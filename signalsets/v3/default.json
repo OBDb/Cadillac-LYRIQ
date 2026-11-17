@@ -50,11 +50,11 @@
   ]},
 { "hdr": "DA40", "rax": "40", "cmd": {"22": "4124"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
-    {"id": "LYRIQ_HVBAT_T_B", "path": "Battery", "fmt": { "len": 16, "max": 2047, "div": 32, "unit": "celsius" }, "name": "Traction battery temperature sensor B", "hidden": true, "description": "Holds one value per session on a 2025 LYRIQ rather than tracking temperature: 0x01A2 (13.06 C) on every sample of a drive and of a 9 h charge to 100 % three days later, while 40E5 and 40E6 rose by several degrees; an earlier session read 0x03DC (30.9 C). Possibly a value latched at wake. Hidden so it is not read as a live pack temperature."}
+    {"id": "LYRIQ_HVBAT_T_B", "path": "Battery", "fmt": { "len": 16, "max": 2047, "div": 32, "unit": "celsius" }, "name": "Traction battery temperature sensor B", "description": "Holds one value per session on a 2025 LYRIQ rather than tracking temperature: 0x01A2 (13.06 C) on every sample of a drive and of a 9 h charge to 100 % three days later, while 40E5 and 40E6 rose by several degrees; an earlier session read 0x03DC (30.9 C). Possibly a value latched at wake. Hidden so it is not read as a live pack temperature.", "hidden": true}
   ]},
 { "hdr": "DA40", "rax": "40", "cmd": {"22": "4127"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
-    {"id": "LYRIQ_HVBAT_T_A", "path": "Battery", "fmt": { "len": 16, "max": 2047, "div": 32, "unit": "celsius" }, "name": "Traction battery temperature sensor A", "hidden": true, "description": "Not live on a 2025 LYRIQ: read exactly 0x0418 (32.75 C) on every sample from August to late September 2026, across four multi-hour charges and a Ready dwell, while 40E5 and 40E6 moved. The 2025 capture in this repo reads 0x00EA (7.31 C), so it is not a fixed constant either; meaning unknown. Hidden so it is not read as a live pack temperature."}
+    {"id": "LYRIQ_HVBAT_T_A", "path": "Battery", "fmt": { "len": 16, "max": 2047, "div": 32, "unit": "celsius" }, "name": "Traction battery temperature sensor A", "description": "Not live on a 2025 LYRIQ: read exactly 0x0418 (32.75 C) on every sample from August to late September 2026, across four multi-hour charges and a Ready dwell, while 40E5 and 40E6 moved. The 2025 capture in this repo reads 0x00EA (7.31 C), so it is not a fixed constant either; meaning unknown. Hidden so it is not read as a live pack temperature.", "hidden": true}
   ]},
 { "hdr": "DA40", "rax": "40", "cmd": {"22": "4149"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
