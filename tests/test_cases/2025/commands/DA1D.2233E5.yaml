@@ -1,8 +1,8 @@
 command_id: DA1D.2233E5
 test_cases:
 - expected_values:
-    LYRIQ_12V_V: 12.2
-  response: 18DAF11D046233E57A
+    LYRIQ_12V_V: 12.1
+  response: 18DAF11D046233E579
 - expected_values:
     LYRIQ_12V_V: 14.2
   response: 18DAF11D046233E58E
