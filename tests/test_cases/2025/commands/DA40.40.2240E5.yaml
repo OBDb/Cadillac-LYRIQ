@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     LYRIQ_HVBAT_COOL_T1: 24.375
   response: 18DAF140056240E5030C
+- expected_values:
+    LYRIQ_HVBAT_COOL_T1: 33.28125
+  response: 18DAF140056240E50429

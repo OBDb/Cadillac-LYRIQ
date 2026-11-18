@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     LYRIQ_HVBAT_T_A: 7.3125
   response: 18DAF1400562412700EA
+- expected_values:
+    LYRIQ_HVBAT_T_A: 7.5625
+  response: 18DAF1400562412700F2
